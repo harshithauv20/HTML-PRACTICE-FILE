@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoStream - Watch Amazing Videos</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>VideoStream</h1>
+        <nav>
+            <a href="#home">Home</a> | 
+            <a href="#videos">Videos</a> | 
+            <a href="#signup">Sign Up</a>
+        </nav>
+        <hr>
+    </header>
+
+    <!-- Signup Page -->
+    <section id="signup">
+        <h2>Create Your Account</h2>
+        <p>Join our community to watch amazing videos!</p>
+        
+        <form>
+            <h3>Personal Information</h3>
+            <p>
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" size="40">
+            </p>
+            
+            <p>
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" size="40">
+            </p>
+            
+            <p>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" size="40">
+            </p>
+            
+            <h3>Video Preferences</h3>
+            <p>What type of videos do you enjoy?</p>
+            <input type="checkbox" id="movies" name="interest" value="movies">
+            <label for="movies">Movies</label><br>
+            
+            <input type="checkbox" id="tutorials" name="interest" value="tutorials">
+            <label for="tutorials">Tutorials</label><br>
+            
+            <input type="checkbox" id="music" name="interest" value="music">
+            <label for="music">Music Videos</label><br>
+            
+            <input type="checkbox" id="documentaries" name="interest" value="documentaries">
+            <label for="documentaries">Documentaries</label>
+            
+            <p>
+                <input type="submit" value="Create Account">
+            </p>
+        </form>
+        
+        <p>Already have an account? <a href="#home">Go to Home Page</a></p>
+    </section>
+
+    <!-- Home Page -->
+    <section id="home">
+        <h2>Welcome to VideoStream</h2>
+        <p>Your favorite place to watch and share videos!</p>
+        
+        <h3>What We Offer</h3>
+        <ul>
+            <li>Thousands of high-quality videos</li>
+            <li>Personal recommendations</li>
+            <li>Easy sharing with friends</li>
+            <li>Watch on any device</li>
+        </ul>
+        
+        <h3>Getting Started</h3>
+        <ol>
+            <li><a href="#signup">Create your account</a></li>
+            <li>Choose your favorite video categories</li>
+            <li><a href="#videos">Start watching videos</a></li>
+        </ol>
+        
+        <h3>Popular Categories</h3>
+        <table border="1" width="100%">
+            <tr>
+                <th>Category</th>
+                <th>Number of Videos</th>
+                <th>Most Popular</th>
+            </tr>
+            <tr>
+                <td>Music</td>
+                <td>15,230</td>
+                <td>Top Hits 2023</td>
+            </tr>
+            <tr>
+                <td>Tutorials</td>
+                <td>8,745</td>
+                <td>Cooking Basics</td>
+            </tr>
+            <tr>
+                <td>Documentaries</td>
+                <td>3,421</td>
+                <td>Nature Wonders</td>
+            </tr>
+        </table>
+        
+        <p>Ready to explore? <a href="#videos">Browse our video collection</a></p>
+    </section>
+
+    <!-- Video Page -->
+    <section id="videos">
+        <h2>Video Collection</h2>
+        <p>Enjoy our hand-picked selection of amazing videos</p>
+        
+        <h3>Featured Video</h3>
+        <video width="640" height="360" controls>
+            <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p><strong>Big Buck Bunny</strong> - A short animated film</p>
+        
+        <h3>Video Categories</h3>
+        <ul>
+            <li><a href="#videos">Music Videos</a> (5,230 videos)</li>
+            <li><a href="#videos">Movie Trailers</a> (3,421 videos)</li>
+            <li><a href="#videos">Educational Content</a> (2,876 videos)</li>
+            <li><a href="#videos">Funny Clips</a> (4,532 videos)</li>
+        </ul>
+        
+        <h3>Recommended Videos</h3>
+        <table border="1" width="100%">
+            <tr>
+                <th>Title</th>
+                <th>Duration</th>
+                <th>Category</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>Elephant Dream</td>
+                <td>10:53</td>
+                <td>Animation</td>
+                <td><a href="#videos">Watch</a></td>
+            </tr>
+            <tr>
+                <td>Nature Documentary</td>
+                <td>22:15</td>
+                <td>Documentary</td>
+                <td><a href="#videos">Watch</a></td>
+            </tr>
+            <tr>
+                <td>Coding Tutorial</td>
+                <td>15:30</td>
+                <td>Education</td>
+                <td><a href="#videos">Watch</a></td>
+            </tr>
+        </table>
+        
+        <p>
+            <a href="#home">Back to Home</a> 
+            <a href="#signup">Create Account</a>
+        </p>
+    </section>
+
+  
+</body>
+</html>
